@@ -1,0 +1,43 @@
+/****** Object:  Table [dbo].[Markers]    Script Date: 01.09.2019 20:51:46 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE DATABASE [MapDB]
+GO
+CREATE TABLE [dbo].[Markers](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Lng] [float] NOT NULL,
+	[Lat] [float] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+SET IDENTITY_INSERT [dbo].[Markers] ON 
+GO
+INSERT [dbo].[Markers] ([Id], [Lng], [Lat]) VALUES (1, 27.158203125, 60.973107109199404)
+GO
+INSERT [dbo].[Markers] ([Id], [Lng], [Lat]) VALUES (2, 19.599609375, 62.062733258846521)
+GO
+INSERT [dbo].[Markers] ([Id], [Lng], [Lat]) VALUES (3, 14.150390625, 57.70414723434191)
+GO
+INSERT [dbo].[Markers] ([Id], [Lng], [Lat]) VALUES (4, 15.0732421875, 57.657157596582977)
+GO
+INSERT [dbo].[Markers] ([Id], [Lng], [Lat]) VALUES (5, 4.658203125, 55.825973254619015)
+GO
+INSERT [dbo].[Markers] ([Id], [Lng], [Lat]) VALUES (6, 43.76953125, 59.933000423746307)
+GO
+INSERT [dbo].[Markers] ([Id], [Lng], [Lat]) VALUES (7, 35.7275390625, 56.194480877269704)
+GO
+INSERT [dbo].[Markers] ([Id], [Lng], [Lat]) VALUES (8, 23.02734375, 56.02294807962744)
+GO
+INSERT [dbo].[Markers] ([Id], [Lng], [Lat]) VALUES (9, 23.90625, 56.63206372054475)
+GO
+INSERT [dbo].[Markers] ([Id], [Lng], [Lat]) VALUES (10, 21.9287109375, 55.603178169027046)
+GO
+INSERT [dbo].[Markers] ([Id], [Lng], [Lat]) VALUES (11, 22.587890625, 56.365250136856069)
+GO
+SET IDENTITY_INSERT [dbo].[Markers] OFF
+GO
